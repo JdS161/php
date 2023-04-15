@@ -24,7 +24,7 @@
                 }
             }
 
-            // Read the file and list them inside select element 
+            // Read the file and list countries inside select element 
             $countries = array();
             if (file_exists("countries.txt")) {
                 $file = fopen("countries.txt", "r");
